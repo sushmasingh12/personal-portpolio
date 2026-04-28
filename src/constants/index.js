@@ -54,30 +54,6 @@ export const PROJECTS = [
   learning: 'Implemented feature-based architecture with route-level code splitting, global error boundaries, and scalable Redux state management across complex UI flows.',
 },
  
-  {
-    id: 'resume-analyzer',
-    title: 'Resume Analyzer UI',
-    description: 'An AI-ready interface for analyzing and scoring resumes against job descriptions.',
-    problem: 'Job seekers often don\'t know why their resume isn\'t passing ATS filters.',
-    solution: 'Designed an interactive analyzer that highlights missing keywords and scores readability.',
-    features: ['Interactive Scoring', 'Keyword Extraction UI', 'ATS Compatibility Check', 'Dark Mode UI'],
-    tech: ['React.js', 'Tailwind CSS', 'GSAP', 'Lucide React'],
-    liveUrl: 'https://ecommerce-website-ebon-nine.vercel.app/',
-    
-    learning: 'Experimented with layout-heavy data visualization and interactive scoring components.',
-  },
-  {
-    id: 'portfolio',
-    title: 'Digital Universe Portfolio',
-    description: 'The interactive 3D universe you are currently exploring!',
-    problem: 'Standard resumes are static and fail to demonstrate frontend technical prowess.',
-    solution: 'Created a cinematic, 3D-integrated experience to showcase animation and modern UI skills.',
-    features: ['3D WebGL Integration', 'GSAP Animations', 'Framer Motion Transitions', 'Responsive Glassmorphism'],
-    tech: ['React.js', 'Three.js', 'Tailwind CSS', 'GSAP'],
-    liveUrl: '#',
-    githubUrl: '#',
-    learning: 'Pushed the boundaries of integrating 3D WebGL scenes into traditional DOM layouts.',
-  },
 ];
 
 export const EDUCATION = [
