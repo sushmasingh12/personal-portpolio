@@ -56,25 +56,29 @@ export default function HeroContent() {
       </motion.p>
 
       <motion.div variants={item} className="flex flex-wrap gap-4 pt-4">
-        <a
-          href="#projects"
-          className="group relative px-8 py-4 bg-amber-500 text-black font-semibold rounded-xl overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(245,158,11,0.3)]"
-        >
-          <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500" />
-          <span className="relative flex items-center gap-2">
-            View Projects <ArrowRight className="w-4 h-4" />
-          </span>
-        </a>
-        
-        <button className="glass px-8 py-4 text-white font-semibold rounded-xl transition-all hover:bg-white/10 hover:scale-105 active:scale-95 flex items-center gap-2">
-          <FileText className="w-4 h-4 opacity-70" />
-          Download Resume
-        </button>
+  <a
+    href="#projects"
+    className="group relative px-8 py-4 bg-amber-500 text-black font-semibold rounded-xl overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(245,158,11,0.3)]"
+  >
+    <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500" />
+    <span className="relative flex items-center gap-2">
+      View Projects <ArrowRight className="w-4 h-4" />
+    </span>
+  </a>
 
-        <button className="w-14 h-14 glass flex items-center justify-center rounded-xl transition-all hover:bg-white/10 hover:scale-105 active:scale-95 text-amber-400">
-          <Send className="w-5 h-5" />
-        </button>
-      </motion.div>
+  <a
+    href="/resume/SushmaCv.pdf"
+    download="SushmaCv.pdf"
+    className="glass px-8 py-4 text-white font-semibold rounded-xl transition-all hover:bg-white/10 hover:scale-105 active:scale-95 flex items-center gap-2"
+  >
+    <FileText className="w-4 h-4 opacity-70" />
+    Download Resume
+  </a>
+
+  <button className="w-14 h-14 glass flex items-center justify-center rounded-xl transition-all hover:bg-white/10 hover:scale-105 active:scale-95 text-amber-400">
+    <Send className="w-5 h-5" />
+  </button>
+</motion.div>
 
       <motion.div variants={item} className="flex items-center gap-6 pt-12 opacity-30 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-700">
         <Github className="w-5 h-5 cursor-pointer hover:text-amber-500" />
