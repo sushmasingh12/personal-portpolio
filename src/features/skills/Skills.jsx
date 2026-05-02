@@ -4,7 +4,7 @@ import { SKILLS } from '@/src/constants';
 import { cn } from '@/src/lib/utils';
 
 const iconMap = {
-  Layout, Palette, Code2, Cpu, Wind, Container, GitBranch, Github, Server,Database,Database,Figma
+  Layout, Palette, Code2, Cpu, Wind, Container, GitBranch, Github, Server,Database,Figma
 };
 
 export default function Skills() {
